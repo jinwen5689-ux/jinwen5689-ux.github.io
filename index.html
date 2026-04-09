@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人网站</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <a class="brand" href="#top">Profile</a>
+          <div class="nav-links" id="nav-links"></div>
+        </nav>
+
+        <div class="hero-grid" id="top">
+          <div class="hero-copy">
+            <p class="eyebrow">PERSONAL WEBSITE</p>
+            <h1 id="hero-title" class="text-3d"></h1>
+            <p class="hero-subtitle" id="hero-subtitle"></p>
+            <p class="hero-meta" id="hero-meta"></p>
+            <p class="hero-intro" id="hero-intro"></p>
+            <div class="tag-list" id="hero-tags"></div>
+          </div>
+          <aside class="hero-panel">
+            <div class="photo-stack">
+              <figure class="photo-card photo-card-main">
+                <img src="./img1.jpg" alt="个人照片一" />
+              </figure>
+              <figure class="photo-card photo-card-accent">
+                <img src="./img2.jpg" alt="个人照片二" />
+              </figure>
+            </div>
+            <p class="panel-label">栏目导览</p>
+            <div class="section-rail" id="section-rail"></div>
+          </aside>
+        </div>
+      </header>
+
+      <main class="content" id="content"></main>
+    </div>
+
+    <script src="./profile-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
